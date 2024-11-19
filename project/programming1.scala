@@ -33,4 +33,3 @@ object Programming1 {
   val Scala3 = COMMON ++ SCALA3
   val ScalaSwing3 = Scala3 ++ SCALA_SWING
 }
-
