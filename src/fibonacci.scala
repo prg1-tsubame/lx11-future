@@ -106,8 +106,8 @@ object Fib {
     }
   }
 
-  def usage() : Unit = {
-      println("runMain lx13.future.run {future, rec, promise, add, add_zip, add_promise, fib}")
+  def usage = {
+      println("Usage: run {future, rec, promise, add, add_zip, add_promise, fib}")
   }
 
   @main
@@ -123,7 +123,7 @@ object Fib {
         println(f"再帰版: recursive.fib(10) = ${recursive.fib(10)}")
         println(f"並列版: parallel.fib(10)  = ${parallel.fib(10)}")
       }
-      case _ => usage()
+      case _ => usage
     }
   }
 }
